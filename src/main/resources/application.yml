@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: url_shortener
+  datasource:
+    url: jdbc:h2:mem:urlDb
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
